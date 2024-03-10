@@ -1,1 +1,29 @@
-
+classdef ggrbf < nnet.layer.Layer
+    % Custom GGRBF layer.
+   
+    properties (Learnable)
+        % Layer learnable parameters.
+        % Scaling coefficients.
+        Alpha
+        Beta
+    end
+   
+    methods
+        function layer = ggrbf(numChannels, name)
+            
+           
+            % Set layer name.
+            layer.Name = name;
+           
+            
+            % Initialize scaling coefficient.
+            layer.Alpha = rand([1 1 numChannels]);
+            layer.Beta = rand([1 1 numChannels]);
+        end
+       
+        function Z = predict(layer, X)
+        % Z = predict(layer, X) forwards the input data X through the layer and outputs the result Z.
+            Z=exp(-(layer.Alpha).^(-2).*X.*X).*exp(exp(-(layer.Beta).^(-2).*X.*X)-1);
+        end
+    end
+end

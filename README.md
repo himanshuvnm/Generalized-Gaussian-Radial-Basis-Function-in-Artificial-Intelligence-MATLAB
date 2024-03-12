@@ -1,2 +1,2 @@
 This repository is in correspondence with the recent research work on application of mathematical functions in the artificial intelligence in terms of improving respective learning rate and convergence rate.
-The corresponding paper is submitted at https://arxiv.org/pdf/2312.10693.pdf. 
+The corresponding paper appeared in MDPI-Mathematics as a feature paper for my significant contribution in the field of machine learning and artificial intelligence. This paper can now be access on https://www.mdpi.com/2227-7390/12/6/829.

@@ -19,9 +19,7 @@
 
 This repository accompanies the research paper
 
-**Machine Learning Application of Generalized Gaussian Radial Basis Function and Its Reproducing Kernel Theory**
-
-published in *Mathematics (MDPI), 2024*.
+**Machine Learning Application of Generalized Gaussian Radial Basis Function and Its Reproducing Kernel Theory** published in *Mathematics (MDPI), 2024*.
 
 The goal of this project is to investigate a **Generalized Gaussian Radial Basis Function (GGRBF)** kernel and demonstrate how it can be used across several machine learning architectures.
 

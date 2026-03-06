@@ -49,9 +49,9 @@ Let $x,y \in \mathbb{R}^d$.
 
 The generalized Gaussian radial basis function kernel is defined as
 
-\[
-K(x,y) = \exp(-\|x-y\|^2)\exp(\exp(-\|x-y\|^2)-1)
-\]
+$$
+K(x,y) = \exp(-\|x-y\|^2)\exp(-\exp(-\|x-y\|^2))
+$$
 
 This formulation introduces an additional exponential structure that extends the classical Gaussian RBF kernel.
 

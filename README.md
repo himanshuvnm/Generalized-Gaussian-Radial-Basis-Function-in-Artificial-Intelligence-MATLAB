@@ -53,6 +53,8 @@ $$
 
 This formulation introduces an additional exponential structure that extends the classical Gaussian RBF kernel. When the additional parameter vanishes, the kernel reduces to the **standard Gaussian RBF kernel**.
 
+[sigma_2sigma2_.98myfigure1_16022024.png](https://github.com/himanshuvnm/Generalized-Gaussian-Radial-Basis-Function-in-Artificial-Intelligence-MATLAB/blob/main/sigma_2sigma2_.98myfigure1_16022024.png)
+
 ---
 
 # Mathematical Contributions

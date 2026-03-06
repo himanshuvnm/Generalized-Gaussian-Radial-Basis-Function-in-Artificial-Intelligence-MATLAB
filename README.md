@@ -45,7 +45,7 @@ The resulting kernel demonstrates **improved classification accuracy and lower m
 
 # The Generalized Gaussian RBF Kernel
 
-Let \(x,y \in \mathbb{R}^d\).
+Let \( x,y \in \mathbb{R}^d \).
 
 The generalized Gaussian radial basis function kernel is defined as
 

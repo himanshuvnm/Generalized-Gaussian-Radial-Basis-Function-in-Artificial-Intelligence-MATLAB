@@ -45,12 +45,10 @@ The resulting kernel demonstrates **improved classification accuracy and lower m
 
 # The Generalized Gaussian RBF Kernel
 
-Let $x,y \in \mathbb{R}^d$.
-
-The generalized Gaussian radial basis function kernel is defined as
+Let $x,y \in \mathbb{R}^d$. The generalized Gaussian radial basis function kernel is defined as
 
 $$
-K(x,y) = \exp(-\|x-y\|^2)\exp(-\exp(-\|x-y\|^2))
+K(x,y) = \exp(-\alpha\|x-y\|^2)\exp(-\beta\exp(-\|x-y\|^2)); \beta\geq0,\alpha>0
 $$
 
 This formulation introduces an additional exponential structure that extends the classical Gaussian RBF kernel.

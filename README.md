@@ -51,9 +51,7 @@ $$
 K(x,y) = \exp(-\alpha\|x-y\|^2)\exp(-\beta\exp(-\|x-y\|^2)); \beta\geq0,\alpha>0
 $$
 
-This formulation introduces an additional exponential structure that extends the classical Gaussian RBF kernel.
-
-When the additional parameter vanishes, the kernel reduces to the **standard Gaussian RBF kernel**.
+This formulation introduces an additional exponential structure that extends the classical Gaussian RBF kernel. When the additional parameter vanishes, the kernel reduces to the **standard Gaussian RBF kernel**.
 
 ---
 

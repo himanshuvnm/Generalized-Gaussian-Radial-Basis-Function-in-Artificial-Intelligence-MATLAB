@@ -92,8 +92,11 @@ Experiments in the paper show that the generalized kernel can outperform several
 Several interesting theoretical directions remain open:
 
 • spectral decomposition of the generalized kernel
+
 • Mercer eigenfunction analysis
+
 • connections with Hermite polynomial expansions
+
 • scalability in deep learning architectures
 
 These questions form part of ongoing research.

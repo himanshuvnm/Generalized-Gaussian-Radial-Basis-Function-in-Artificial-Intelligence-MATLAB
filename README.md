@@ -100,3 +100,18 @@ Several interesting theoretical directions remain open:
 • scalability in deep learning architectures
 
 These questions form part of ongoing research.
+
+# Author
+
+Himanshu Singh
+
+Research interests:
+
+• scientific machine learning
+
+• kernel methods
+
+• sparse learning
+
+• operator learning
+• mechanistic interpretability
